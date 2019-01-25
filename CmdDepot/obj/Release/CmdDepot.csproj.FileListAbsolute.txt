@@ -1,0 +1,9 @@
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\bin\Release\CmdDepot.exe.config
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\bin\Release\CmdDepot.exe
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\bin\Release\CmdDepot.pdb
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.CmdDepot.resources
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.Properties.Resources.resources
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.csproj.GenerateResource.cache
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.csproj.CoreCompileInputs.cache
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.exe
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Release\CmdDepot.pdb
