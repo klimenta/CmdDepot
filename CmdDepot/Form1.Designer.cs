@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CmdDepot));
             this.panHolder = new System.Windows.Forms.Panel();
+            this.tbCmd = new System.Windows.Forms.TextBox();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.tbCmd = new System.Windows.Forms.TextBox();
             this.btnPaste = new System.Windows.Forms.Button();
             this.btnCopy = new System.Windows.Forms.Button();
             this.ttTooltips = new System.Windows.Forms.ToolTip(this.components);
-            this.lblAbout = new System.Windows.Forms.Label();
             this.btnStayOnTop = new System.Windows.Forms.Button();
+            this.lblAbout = new System.Windows.Forms.Label();
             this.panHolder.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +53,18 @@
             this.panHolder.Name = "panHolder";
             this.panHolder.Size = new System.Drawing.Size(404, 50);
             this.panHolder.TabIndex = 0;
+            // 
+            // tbCmd
+            // 
+            this.tbCmd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbCmd.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbCmd.Location = new System.Drawing.Point(0, 1);
+            this.tbCmd.Multiline = true;
+            this.tbCmd.Name = "tbCmd";
+            this.tbCmd.Size = new System.Drawing.Size(402, 44);
+            this.tbCmd.TabIndex = 2;
             // 
             // btnNew
             // 
@@ -89,18 +102,6 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // tbCmd
-            // 
-            this.tbCmd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbCmd.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCmd.Location = new System.Drawing.Point(0, 1);
-            this.tbCmd.Multiline = true;
-            this.tbCmd.Name = "tbCmd";
-            this.tbCmd.Size = new System.Drawing.Size(402, 44);
-            this.tbCmd.TabIndex = 2;
-            // 
             // btnPaste
             // 
             this.btnPaste.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -129,16 +130,6 @@
             // 
             this.ttTooltips.IsBalloon = true;
             // 
-            // lblAbout
-            // 
-            this.lblAbout.AutoSize = true;
-            this.lblAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAbout.Location = new System.Drawing.Point(196, 10);
-            this.lblAbout.Name = "lblAbout";
-            this.lblAbout.Size = new System.Drawing.Size(210, 20);
-            this.lblAbout.TabIndex = 6;
-            this.lblAbout.Text = "Kliment Andreev - 2019, v0.1";
-            // 
             // btnStayOnTop
             // 
             this.btnStayOnTop.Location = new System.Drawing.Point(96, 2);
@@ -149,6 +140,16 @@
             this.ttTooltips.SetToolTip(this.btnStayOnTop, "Stay On Top");
             this.btnStayOnTop.UseVisualStyleBackColor = true;
             this.btnStayOnTop.Click += new System.EventHandler(this.btnStayOnTop_Click);
+            // 
+            // lblAbout
+            // 
+            this.lblAbout.AutoSize = true;
+            this.lblAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAbout.Location = new System.Drawing.Point(196, 10);
+            this.lblAbout.Name = "lblAbout";
+            this.lblAbout.Size = new System.Drawing.Size(210, 20);
+            this.lblAbout.TabIndex = 6;
+            this.lblAbout.Text = "Kliment Andreev - 2019, v0.1";
             // 
             // CmdDepot
             // 
@@ -163,6 +164,7 @@
             this.Controls.Add(this.btnPaste);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCopy);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CmdDepot";
             this.Text = "CmdDepot";
             this.panHolder.ResumeLayout(false);

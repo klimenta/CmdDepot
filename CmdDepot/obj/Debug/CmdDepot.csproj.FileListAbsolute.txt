@@ -7,3 +7,4 @@ C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.csproj.CoreC
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.exe
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.pdb
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.CmdDepot.resources
+C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.csprojAssemblyReference.cache
