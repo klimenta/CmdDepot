@@ -1,0 +1,10 @@
+P:\dotnet\cmddepot\CmdDepot\bin\x64\Release\CmdDepot.exe.config
+P:\dotnet\cmddepot\CmdDepot\bin\x64\Release\CmdDepot.exe
+P:\dotnet\cmddepot\CmdDepot\bin\x64\Release\CmdDepot.pdb
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.csprojAssemblyReference.cache
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.CmdDepot.resources
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.Properties.Resources.resources
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.GenerateResource.cache
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.CoreCompileInputs.cache
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.exe
+P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.pdb

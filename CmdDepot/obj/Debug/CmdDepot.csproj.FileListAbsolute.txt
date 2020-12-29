@@ -8,3 +8,12 @@ C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.exe
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.pdb
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.CmdDepot.resources
 C:\Users\klimenta\source\repos\CmdDepot\CmdDepot\obj\Debug\CmdDepot.csprojAssemblyReference.cache
+P:\dotnet\cmddepot\CmdDepot\bin\Debug\CmdDepot.exe.config
+P:\dotnet\cmddepot\CmdDepot\bin\Debug\CmdDepot.exe
+P:\dotnet\cmddepot\CmdDepot\bin\Debug\CmdDepot.pdb
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.CmdDepot.resources
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.Properties.Resources.resources
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.csproj.GenerateResource.cache
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.csproj.CoreCompileInputs.cache
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.exe
+P:\dotnet\cmddepot\CmdDepot\obj\Debug\CmdDepot.pdb
