@@ -18,9 +18,11 @@ Type or paste a command in the **cmddepot** window. You can paste the content of
 * **_** - Minimize the instance on the task bar.
 * **X** - Exits the program.
 
+Use CTRL-ALT-#key as a shortcut.
+
 * If you want to move the **cmddepot** window, drag and drop from the green bar on top. 
 * If you want to resize the **cmddepot** window, drag and drop from the bottom right corner. 
 
 ## Download
 
-You can compile the program with Visual Studio and .NET 4.5 or get the binary from the releases section.
+You can compile the program with Visual Studio and .NET 4.8 or get the binary from the releases section.
