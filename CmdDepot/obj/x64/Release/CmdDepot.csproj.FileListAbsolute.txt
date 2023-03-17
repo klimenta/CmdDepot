@@ -8,3 +8,14 @@ P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.GenerateResource.cac
 P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.CoreCompileInputs.cache
 P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.exe
 P:\dotnet\cmddepot\CmdDepot\obj\x64\Release\CmdDepot.pdb
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\bin\x64\Release\CmdDepot.exe.config
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\bin\x64\Release\CmdDepot.exe
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\bin\x64\Release\CmdDepot.pdb
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.AssemblyReference.cache
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.SuggestedBindingRedirects.cache
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.CmdDepot.resources
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.Properties.Resources.resources
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.GenerateResource.cache
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.csproj.CoreCompileInputs.cache
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.exe
+C:\Users\kliment\OneDrive - Andreev\Kliment Andreev\MyHomeLab\Projects\CmdDepot\CmdDepot\obj\x64\Release\CmdDepot.pdb

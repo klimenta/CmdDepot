@@ -79,5 +79,34 @@ namespace CmdDepot
                 btnStayOnTop.BackColor = btnCopy.BackColor;
             }            
         }
+
+        private void tbCmd_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.C && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnCopy_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.P && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnPaste_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.N && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnNew_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.T && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnStayOnTop_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.OemMinus && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnMinimize_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.X && e.Modifiers == (Keys.Control | Keys.Alt))
+            {
+                btnClose_Click(sender, e);
+            }
+
+        }
     }
 }

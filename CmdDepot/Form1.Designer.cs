@@ -65,6 +65,7 @@
             this.tbCmd.Name = "tbCmd";
             this.tbCmd.Size = new System.Drawing.Size(402, 44);
             this.tbCmd.TabIndex = 2;
+            this.tbCmd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCmd_KeyDown);
             // 
             // btnNew
             // 
@@ -149,7 +150,7 @@
             this.lblAbout.Name = "lblAbout";
             this.lblAbout.Size = new System.Drawing.Size(210, 20);
             this.lblAbout.TabIndex = 6;
-            this.lblAbout.Text = "Kliment Andreev - 2019, v0.1";
+            this.lblAbout.Text = "Kliment Andreev - 2023, v0.2";
             // 
             // CmdDepot
             // 
