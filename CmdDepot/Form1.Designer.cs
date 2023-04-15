@@ -39,6 +39,7 @@
             this.btnCopy = new System.Windows.Forms.Button();
             this.ttTooltips = new System.Windows.Forms.ToolTip(this.components);
             this.btnStayOnTop = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.lblAbout = new System.Windows.Forms.Label();
             this.panHolder.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             this.panHolder.Controls.Add(this.tbCmd);
             this.panHolder.Location = new System.Drawing.Point(0, 32);
             this.panHolder.Name = "panHolder";
-            this.panHolder.Size = new System.Drawing.Size(404, 50);
+            this.panHolder.Size = new System.Drawing.Size(456, 54);
             this.panHolder.TabIndex = 0;
             // 
             // tbCmd
@@ -63,8 +64,9 @@
             this.tbCmd.Location = new System.Drawing.Point(0, 1);
             this.tbCmd.Multiline = true;
             this.tbCmd.Name = "tbCmd";
-            this.tbCmd.Size = new System.Drawing.Size(402, 44);
+            this.tbCmd.Size = new System.Drawing.Size(454, 48);
             this.tbCmd.TabIndex = 2;
+            this.tbCmd.TextChanged += new System.EventHandler(this.tbCmd_TextChanged);
             this.tbCmd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCmd_KeyDown);
             // 
             // btnNew
@@ -75,7 +77,7 @@
             this.btnNew.Size = new System.Drawing.Size(30, 30);
             this.btnNew.TabIndex = 5;
             this.btnNew.Text = "N";
-            this.ttTooltips.SetToolTip(this.btnNew, "New Instance");
+            this.ttTooltips.SetToolTip(this.btnNew, "New instance");
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
@@ -94,12 +96,12 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(160, 2);
+            this.btnClose.Location = new System.Drawing.Point(192, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "X";
-            this.ttTooltips.SetToolTip(this.btnClose, "Exit Application");
+            this.ttTooltips.SetToolTip(this.btnClose, "eXit application");
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -111,7 +113,7 @@
             this.btnPaste.Size = new System.Drawing.Size(30, 30);
             this.btnPaste.TabIndex = 1;
             this.btnPaste.Text = "P";
-            this.ttTooltips.SetToolTip(this.btnPaste, "Paste from Clipboard");
+            this.ttTooltips.SetToolTip(this.btnPaste, "Paste from clipboard");
             this.btnPaste.UseVisualStyleBackColor = true;
             this.btnPaste.Click += new System.EventHandler(this.btnPaste_Click);
             // 
@@ -123,7 +125,7 @@
             this.btnCopy.Size = new System.Drawing.Size(30, 30);
             this.btnCopy.TabIndex = 0;
             this.btnCopy.Text = "C";
-            this.ttTooltips.SetToolTip(this.btnCopy, "Copy to Clipboard");
+            this.ttTooltips.SetToolTip(this.btnCopy, "Copy to clipboard");
             this.btnCopy.UseVisualStyleBackColor = true;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
@@ -138,25 +140,38 @@
             this.btnStayOnTop.Size = new System.Drawing.Size(30, 30);
             this.btnStayOnTop.TabIndex = 7;
             this.btnStayOnTop.Text = "T";
-            this.ttTooltips.SetToolTip(this.btnStayOnTop, "Stay On Top");
+            this.ttTooltips.SetToolTip(this.btnStayOnTop, "stay On Top");
             this.btnStayOnTop.UseVisualStyleBackColor = true;
             this.btnStayOnTop.Click += new System.EventHandler(this.btnStayOnTop_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Location = new System.Drawing.Point(160, 2);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(30, 30);
+            this.btnSettings.TabIndex = 8;
+            this.btnSettings.Text = "⚙";
+            this.ttTooltips.SetToolTip(this.btnSettings, "Settings");
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // lblAbout
             // 
             this.lblAbout.AutoSize = true;
             this.lblAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAbout.Location = new System.Drawing.Point(196, 10);
+            this.lblAbout.Location = new System.Drawing.Point(286, 7);
             this.lblAbout.Name = "lblAbout";
-            this.lblAbout.Size = new System.Drawing.Size(210, 20);
+            this.lblAbout.Size = new System.Drawing.Size(168, 20);
             this.lblAbout.TabIndex = 6;
-            this.lblAbout.Text = "Kliment Andreev - 2023, v0.2";
+            this.lblAbout.Text = "K.Andreev - 2023, v0.3";
             // 
             // CmdDepot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(406, 80);
+            this.ClientSize = new System.Drawing.Size(458, 84);
+            this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.btnStayOnTop);
             this.Controls.Add(this.lblAbout);
             this.Controls.Add(this.btnNew);
@@ -168,6 +183,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CmdDepot";
             this.Text = "CmdDepot";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CmdDepot_FormClosing);
+            this.Load += new System.EventHandler(this.CmdDepot_Load);
             this.panHolder.ResumeLayout(false);
             this.panHolder.PerformLayout();
             this.ResumeLayout(false);
@@ -181,12 +198,13 @@
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.TextBox tbCmd;
+        public System.Windows.Forms.TextBox tbCmd;
         private System.Windows.Forms.Button btnPaste;
         private System.Windows.Forms.Button btnCopy;
         private System.Windows.Forms.ToolTip ttTooltips;
         private System.Windows.Forms.Label lblAbout;
         private System.Windows.Forms.Button btnStayOnTop;
+        private System.Windows.Forms.Button btnSettings;
     }
 }
 
